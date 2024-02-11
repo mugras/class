@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    height: 300px;
+    height: 400px;
     border-radius: 15px;
     background: rgb(27, 31, 35);
     margin: 10px;
@@ -21,7 +21,6 @@ body {
     border-radius: 10px 10px 0 0;
     height: 130px;
     margin-bottom: 40px;
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
@@ -47,12 +46,59 @@ body {
     color: white;
 }
 
+.info {
+    margin: 5px 0 5px 0;
+}
 
-/* 
-.work-experience {
+.info 
+.info > .contact-info {
+    font-size: 12px;
+    display: flex;
+}
 
+.city-info{
+    color: white;
+    color: rgba (255, 255, 255, 0.5);
 }
 
 .contact-info {
+    background: none;
+    border: none;
+    color: rgba(113, 183, 251, 1);
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.contact-info:before {
+    content: "\00B7";
+    color: rgba (255, 255, 255, 0.5);
+    margin-right: 5px;
+}
+
+.connections {
+    color: rgba(113, 183, 251, 1);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button {
+    background: rgba(113, 183, 251, 1));
+    border-radius: 10px;
+    color: rgb(27, 31, 35);
+    transition-duration: 0.4s;
+    padding: 4px;
+
+}
+
+button:hover {
+    background-color: #71b7fb;
+    color: #AAd6FF
+}
+
+/* .current-workplace {
+
+}
+
+.work-experience {
 
 } */
